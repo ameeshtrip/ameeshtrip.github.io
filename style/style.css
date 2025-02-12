@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 body {
@@ -9,7 +10,8 @@ body {
 
 .container {
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
+  max-width: 100% ;
   margin: 0 auto;
   text-align: center;
   visibility: hidden;
@@ -58,6 +60,7 @@ body {
 }
 
 .four .text-box {
+  max-width: 90%;
   width: 600px;
   margin: 0 auto;
   border: 3px solid #aaa;
