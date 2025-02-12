@@ -121,8 +121,18 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 45%;
+  max-width: 35%; /* Reduce image size */
   height: auto;
+}
+
+.six .wish-hbd {
+  font-size: 2em; /* Make text smaller */
+}
+
+.six .wish h5 {
+  font-weight: lighter;
+  font-size: 1.5rem; /* Reduce text size */
+  margin: 10px 0 0;
 }
 
 .baloons img {
@@ -186,6 +196,18 @@ body {
 
   .wish-hbd {
     font-size: 2.3em;
+  }
+
+  .six img {
+    max-width: 30%; /* Further reduce image size for small screens */
+  }
+
+  .six .wish-hbd {
+    font-size: 1.8em;
+  }
+
+  .six .wish h5 {
+    font-size: 1.3rem;
   }
 
   .nine p {
