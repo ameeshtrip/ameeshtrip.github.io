@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    background: linear-gradient(to right, #d0f0f2, #a2d5c6); /* Light teal gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3a8d8f; /* Teal shade */
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: white;
+    background: #5ba199; /* Teal button */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #3a8d8f;
+}
+
+.btn.secondary {
+    background: #82c4c3; /* Lighter teal */
+}
+
+.btn.secondary:hover {
+    background: #5ba199;
+}
